@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 0
+}
+
+body{
+  background: url(immagini/background.jpg);
+  background-size: cover;
+  background-position: top center;
+  font-family: Quicksand;
+}
+
+/* Div contenitore */
+.container{
+  width: 63vw;
+  height: 90vh;
+  background: rgba(0,0,0,0.5);
+  margin: 20px auto 0;
+  border-radius: 20px;
+  padding: 5%;
+}
+
+/* Intestazione */
+header{
+  margin:auto;
+  text-align: center;
+  color:#22c903;
+  font-size: 15px;
+}
+
+header img{
+  width: 25%;
+}
+
+/* Menu navigazione */
+nav{
+  margin-top: 5px;
+  background-color:#22c903;
+  text-align: center;
+  padding: 10px;
+}
+
+nav button{
+  border-radius: 5px;
+  font-family: Quicksand;
+  font-weight: bold;
+}
+
+
+
+/* Lista prodotti */
+.prodotto{
+  margin-top: 10px;
+  color: white;
+}
+
+.prodotto > h2{
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.prodotto > div{
+ margin-top: 3px;
+ font-size: 13px;
+}
+
+.prodotto > hr{
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.prodotto.gino > hr{
+  border: 15px solid #f99d2e;
+  width: 35%;
+}
+
+.prodotto.mike > hr{
+  border: 15px solid #3bf93b;
+  width: 60%;
+}
+
+.prodotto.fede > hr{
+  border: 15px solid #ff4545;
+  width: 15%;
+}
